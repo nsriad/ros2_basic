@@ -21,7 +21,7 @@ ROS2 systems are composed of independent nodes that communicate through topics.
 ros2_basic/
  └── src/
      └── py_nodes/
-         ├── number_publisher.py
+         ├── number_publisher1.py
          ├── number_publisher2.py
          ├── multiplier_node.py
 
