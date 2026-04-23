@@ -1,0 +1,9 @@
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/uninstall.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/cpp_nodes_uninstall.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/test.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/edit_cache.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/rebuild_cache.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/list_install_components.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/install.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/install/local.dir
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/cpp_nodes/CMakeFiles/install/strip.dir

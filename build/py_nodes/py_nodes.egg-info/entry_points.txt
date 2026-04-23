@@ -1,0 +1,4 @@
+[console_scripts]
+multiplier = py_nodes.multiplier_node:main
+number_pub1 = py_nodes.number_publisher1:main
+number_pub2 = py_nodes.number_publisher2:main

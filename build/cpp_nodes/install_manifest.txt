@@ -1,0 +1,15 @@
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/ament_index/resource_index/package_run_dependencies/cpp_nodes
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/ament_index/resource_index/parent_prefix_path/cpp_nodes
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.sh
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.dsv
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/environment/path.sh
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/environment/path.dsv
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/local_setup.bash
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/local_setup.sh
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/local_setup.zsh
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/local_setup.dsv
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/package.dsv
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/ament_index/resource_index/packages/cpp_nodes
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig.cmake
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig-version.cmake
+/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/cpp_nodes/share/cpp_nodes/package.xml

@@ -1,0 +1,41 @@
+[0.548s] Invoking command in '/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/src/py_nodes': PYTHONPATH=/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_nodes build --build-base /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build install --record /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/install.log --single-version-externally-managed install_data
+[0.706s] running egg_info
+[0.716s] creating ../../build/py_nodes/py_nodes.egg-info
+[0.716s] writing ../../build/py_nodes/py_nodes.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../../build/py_nodes/py_nodes.egg-info/dependency_links.txt
+[0.716s] writing entry points to ../../build/py_nodes/py_nodes.egg-info/entry_points.txt
+[0.716s] writing requirements to ../../build/py_nodes/py_nodes.egg-info/requires.txt
+[0.716s] writing top-level names to ../../build/py_nodes/py_nodes.egg-info/top_level.txt
+[0.774s] writing manifest file '../../build/py_nodes/py_nodes.egg-info/SOURCES.txt'
+[0.801s] reading manifest file '../../build/py_nodes/py_nodes.egg-info/SOURCES.txt'
+[0.802s] writing manifest file '../../build/py_nodes/py_nodes.egg-info/SOURCES.txt'
+[0.802s] running build
+[0.802s] running build_py
+[0.802s] creating /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes
+[0.802s] copying py_nodes/__init__.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes
+[0.802s] copying py_nodes/number_publisher1.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes
+[0.802s] copying py_nodes/number_publisher2.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes
+[0.802s] copying py_nodes/multiplier_node.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes
+[0.802s] running install
+[0.804s] running install_lib
+[0.813s] creating /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes
+[0.813s] copying /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes/__init__.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes
+[0.813s] copying /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes/number_publisher1.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes
+[0.813s] copying /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes/number_publisher2.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes
+[0.813s] copying /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build/lib/py_nodes/multiplier_node.py -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes
+[0.814s] byte-compiling /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes/__init__.py to __init__.cpython-310.pyc
+[0.814s] byte-compiling /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes/number_publisher1.py to number_publisher1.cpython-310.pyc
+[0.814s] byte-compiling /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes/number_publisher2.py to number_publisher2.cpython-310.pyc
+[0.814s] byte-compiling /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes/multiplier_node.py to multiplier_node.cpython-310.pyc
+[0.814s] running install_data
+[0.815s] creating /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/share/ament_index/resource_index/packages
+[0.815s] copying resource/py_nodes -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/share/ament_index/resource_index/packages
+[0.815s] copying package.xml -> /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/share/py_nodes
+[0.815s] running install_egg_info
+[0.829s] Copying ../../build/py_nodes/py_nodes.egg-info to /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages/py_nodes-0.0.0-py3.10.egg-info
+[0.829s] running install_scripts
+[0.855s] Installing multiplier script to /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/py_nodes
+[0.855s] Installing number_pub1 script to /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/py_nodes
+[0.855s] Installing number_pub2 script to /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/py_nodes
+[0.855s] writing list of installed files to '/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/install.log'
+[0.871s] Invoked command in '/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/src/py_nodes' returned '0': PYTHONPATH=/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ruby/Nazmus Shakib/Spring 26/ros2_basic/install/py_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_nodes build --build-base /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/build install --record /home/ruby/Nazmus Shakib/Spring 26/ros2_basic/build/py_nodes/install.log --single-version-externally-managed install_data
