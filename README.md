@@ -1,7 +1,9 @@
-# ROS2 Multiplication System (Python)
+# ROS2 Multiplication System (Python and C++)
 
 This project implements a simple ROS2 system using the publish–subscribe model.  
 Two nodes publish integer values, and one node subscribes to both topics and multiplies the received values.
+
+The system is implemented in both Python and C++.
 
 ---
 
@@ -19,11 +21,18 @@ ROS2 systems are composed of independent nodes that communicate through topics.
 
 ```
 ros2_basic/
- └── src/
-     └── py_nodes/
-         ├── number_publisher1.py
-         ├── number_publisher2.py
-         ├── multiplier_node.py
+└── src/
+├── py_nodes/
+│ └── py_nodes/
+│ ├── number_publisher1.py
+│ ├── number_publisher2.py
+│ └── multiplier_node.py
+│
+└── cpp_nodes/
+└── src/
+├── number_publisher1.cpp
+├── number_publisher2.cpp
+└── multiplier_node.cpp
 
 ```
 ---
@@ -35,6 +44,10 @@ ros2_basic/
 - rclpy
 - std_msgs
 
+For the C++ implementation:
+- rclcpp
+- CMake/ament_cmake
+
 ---
 
 ## Build
@@ -45,20 +58,33 @@ source install/setup.bash
 
 ---
 
-## Run
+## Run Python version
 
 Open three terminals.
 
 Terminal 1:
-ros2 run py_nodes number_pub1  
+```ros2 run py_nodes number_pub1```
 
 Terminal 2:
-ros2 run py_nodes number_pub2  
+```ros2 run py_nodes number_pub2 ```
 
 Terminal 3:
-ros2 run py_nodes multiplier  
+```ros2 run py_nodes multiplier  ```
 
 ---
+
+## Run C++ Version
+
+Open three terminals.
+
+Terminal 1:
+```ros2 run cpp_nodes number_publisher1```
+
+Terminal 2:
+```ros2 run cpp_nodes number_publisher2```
+
+Terminal 3:
+```ros2 run cpp_nodes multiplier_node```
 
 ## Example Output
 
@@ -78,6 +104,6 @@ Multiply: 110 x 13 = 1430
 
 ## Next Steps
 
-- Implement the same system in C++
+- Add launch files to run all nodes together
 
 
