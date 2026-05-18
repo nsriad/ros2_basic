@@ -8,19 +8,8 @@ class MultiplierNode(Node):
         super().__init__('multiplier_node')
         self.num1 = None
         self.num2 = None
-        self.sub1 = self.create_subscription(
-            Int32,
-            'number1',
-            self.callback1,
-            10
-        )
-
-        self.sub2 = self.create_subscription(
-            Int32,
-            'number2',
-            self.callback2,
-            10
-        )
+        self.sub1 = self.create_subscription(Int32, 'number1', self.callback1, 10)
+        self.sub2 = self.create_subscription(Int32, 'number2', self.callback2, 10)
 
     def callback1(self, msg):
         self.num1 = msg.data
