@@ -22,17 +22,17 @@ ROS2 systems are composed of independent nodes that communicate through topics.
 ```
 ros2_basic/
 └── src/
-├── py_nodes/
-│ └── py_nodes/
-│ ├── number_publisher1.py
-│ ├── number_publisher2.py
-│ └── multiplier_node.py
-│
-└── cpp_nodes/
-└── src/
-├── number_publisher1.cpp
-├── number_publisher2.cpp
-└── multiplier_node.cpp
+    ├── py_nodes/
+    │   └── py_nodes/
+    │       ├── number_publisher1.py
+    │       ├── number_publisher2.py
+    │       └── multiplier_node.py
+    │
+    └── cpp_nodes/
+        └── src/
+            ├── number_publisher1.cpp
+            ├── number_publisher2.cpp
+            └── multiplier_node.cpp
 
 ```
 ---
