@@ -52,9 +52,11 @@ For the C++ implementation:
 
 ## Build
 
+```bash
 cd ~/ros2_basic  
 colcon build  
 source install/setup.bash  
+```
 
 ---
 
@@ -63,13 +65,19 @@ source install/setup.bash
 Open three terminals.
 
 Terminal 1:
-```ros2 run py_nodes number_pub1```
+```bash 
+ros2 run py_nodes number_pub1
+```
 
 Terminal 2:
-```ros2 run py_nodes number_pub2 ```
+```bash
+ros2 run py_nodes number_pub2
+```
 
 Terminal 3:
-```ros2 run py_nodes multiplier  ```
+```bash
+ros2 run py_nodes multiplier 
+```
 
 ---
 
@@ -78,19 +86,44 @@ Terminal 3:
 Open three terminals.
 
 Terminal 1:
-```ros2 run cpp_nodes number_publisher1```
+```bash
+ros2 run cpp_nodes number_publisher1
+```
 
 Terminal 2:
-```ros2 run cpp_nodes number_publisher2```
+```bash
+ros2 run cpp_nodes number_publisher2
+```
 
 Terminal 3:
-```ros2 run cpp_nodes multiplier_node```
+```bash
+ros2 run cpp_nodes multiplier_node
+```
 
 ## Example Output
 
+```
 Multiply: 100 x 11 = 1100  
 Multiply: 105 x 12 = 1260  
-Multiply: 110 x 13 = 1430  
+Multiply: 110 x 13 = 1430
+```  
+
+---
+
+## Live Plot Using RQT
+
+This project can also be visualized using `rqt_plot`. This allows us to see the published topic values changing live.
+
+First, make sure the ROS2 workspace is sourced:
+
+```bash
+source install/setup.bash
+```
+
+Run the publisher nodes in separate terminals and then open `rqt_plot` with the topic values using following command:
+```bash
+ros2 run rqt_plot rqt_plot /number1/data /number2/data
+```
 
 ---
 
