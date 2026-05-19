@@ -35,7 +35,7 @@ ros2_basic/
     └── py_nodes/
     |   ├── launch/
     |   │   ├── multiplication_launch.py
-        |   └── vehicle_communication_launch.py
+        |   └── vehicle_comm_launch.py
     |   └── py_nodes/
     |       ├── number_publisher1.py
     |       ├── number_publisher2.py
@@ -144,7 +144,7 @@ This example has two vehicle nodes. Each vehicle publishes its own velocity and 
 Run both vehicle nodes together using the launch file:
 
 ```bash
-ros2 launch py_nodes vehicle_communication_launch.py
+ros2 launch py_nodes vehicle_comm_launch.py
 ```
 
 ---
