@@ -30,6 +30,8 @@ setup(
             'number_pub1 = py_nodes.number_publisher1:main',
             'number_pub2 = py_nodes.number_publisher2:main',
             'multiplier = py_nodes.multiplier_node:main',
+            'vehicle1 = py_nodes.vehicle1_node:main',
+            'vehicle2 = py_nodes.vehicle2_node:main',
         ],
     },
 )
