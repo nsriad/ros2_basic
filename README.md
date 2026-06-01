@@ -42,6 +42,8 @@ ros2_basic/
     |       ├── multiplier_node.py
     |       ├── vehicle1_node.py
     |       └── vehicle2_node.py
+    ├── rviz/
+    │   └── vehicle_visualization.rviz
     │
     └── cpp_nodes/
         └── src/
@@ -177,6 +179,131 @@ ros2 run rqt_plot rqt_plot /vehicle1/velocity/linear/x /vehicle2/velocity/linear
 ```
 
 ---
+
+## Vehicle Communication with TF2 and RViz
+
+This example extends the vehicle communication system by adding `tf2` frame broadcasting and RViz visualization.
+
+Two dummy vehicle nodes are used:
+
+- `vehicle1_node`
+- `vehicle2_node`
+
+Each vehicle publishes its own velocity and subscribes to the other vehicle's velocity topic.
+
+Communication topics:
+
+```text
+/vehicle1/velocity
+/vehicle2/velocity
+```
+
+Each velocity message uses:
+
+```text
+geometry_msgs/msg/Twist
+```
+
+where:
+
+```text
+linear.x   = forward velocity
+angular.z  = yaw rate
+```
+
+The vehicles also broadcast their position as TF frames:
+
+```text
+map -> vehicle1/base_link
+map -> vehicle2/base_link
+```
+
+These frames allow RViz to understand where each vehicle is located in the map frame.
+
+Each vehicle also publishes a simple RViz marker:
+
+```text
+/vehicle1/marker
+/vehicle2/marker
+```
+
+The markers are displayed as simple colored boxes in RViz.
+
+---
+
+## Run Vehicle Visualization
+
+To run the vehicle communication example with RViz visualization:
+
+```bash
+ros2 launch py_nodes vehicle_visualization_launch.py
+```
+
+This launch file starts:
+
+```text
+vehicle1_node
+vehicle2_node
+rviz2
+```
+
+RViz opens with the saved configuration file:
+
+```text
+rviz/vehicle_visualization.rviz
+```
+
+In RViz, the visualization shows:
+
+- TF frames for both vehicles
+- simple box markers for vehicle 1 and vehicle 2
+- grid view in the `map` frame
+
+---
+
+## Vehicle Visualization Files
+
+The main files used for this example are:
+
+```text
+py_nodes/
+├── launch/
+│   ├── vehicle_comm_launch.py
+│   └── vehicle_visualization_launch.py
+├── rviz/
+│   └── vehicle_visualization.rviz
+└── py_nodes/
+    ├── vehicle1_node.py
+    └── vehicle2_node.py
+```
+
+The `vehicle_comm_launch.py` file starts only the two vehicle nodes.
+
+```bash
+ros2 launch py_nodes vehicle_comm_launch.py
+```
+
+The `vehicle_visualization_launch.py` file starts the two vehicle nodes and RViz together.
+
+```bash
+ros2 launch py_nodes vehicle_visualization_launch.py
+```
+
+---
+
+## ROS2 Tools Used
+
+This project currently uses the following ROS2 tools and concepts:
+
+- `rclpy` for Python ROS2 nodes
+- `std_msgs` for simple integer messages
+- `geometry_msgs/msg/Twist` for vehicle velocity
+- `tf2_ros` for broadcasting coordinate frames
+- `visualization_msgs/msg/Marker` for RViz vehicle boxes
+- `rqt_graph` for node and topic graph visualization
+- `rqt_plot` for live topic value plotting
+- `rviz2` for TF and marker visualization
+- launch files for running multiple nodes together
 
 ## Notes
 
